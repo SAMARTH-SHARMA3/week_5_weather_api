@@ -1,36 +1,34 @@
 {
   "name": "weather_api",
   "version": "1.0.0",
-  "description": "The weather weather_api",
-  "main": "index.js",
+  "description": "The Weather API",
   "type": "module",
   "engines": {
-    "node": ">= 18.12 <21"
+  "node": ">= 18.12 <21"
   },
-  "scripts": {
-    "start": "node dist/src/server.js",
-    "dev": "nodemon dist/src/server.js",
-    "build": "tsc -p tsconfig.json",
-    "build:watch": "tsc -w -p tsconfig.json",
-    "dev:start": "nodemon dist/src/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-
-  },
-  "keywords": [],
-  "author": "Smarth Sharma",
   "license": "MIT",
-  "dependencies": {
-    "@faker-js/faker": "^8.4.1",
-    "express": "^4.19.2",
-    "express-validator": "^7.0.1"
+  "author": "Lucian Duta",
+  "scripts": {
+  "start": "node dist/src/server.js",
+  "dev": "nodemon dist/src/server.js",
+  "build": "tsc -p tsconfig.json",
+  "build:watch": "tsc -w -p tsconfig.json",
+  "dev:start": "nodemon dist/src/server.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "@types/node": "^20.12.3",
-    "nodemon": "^3.1.0",
-    "npm": "^10.5.1",
-    "run-all": "^1.0.1",
-    "ts-node": "^10.9.2",
-    "tslib": "^2.6.2",
-    "typescript": "^5.4.3"
+  "@faker-js/faker": "^8.4.0",
+  "@types/node": "^20.11.10",
+  "nodemon": "^3.0.3",
+  "npm-run-all": "^4.1.5",
+  "ts-node": "^10.9.2",
+  "tslib": "^2.6.2",
+  "typescript": "^5.3.3"
+  },
+  "dependencies": {
+  "@faker-js/faker": "^8.4.0",
+  "express": "^4.18.2",
+  "express-validator": "^7.0.1",
+  "gateway": "^1.0.0"
   }
 }
