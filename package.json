@@ -1,0 +1,30 @@
+{
+  "name": "weather_api",
+  "version": "1.0.0",
+  "description": "this is the weather weather_api",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">= 18.12 <21"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Smarth Sharma",
+  "license": "MIT",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "express": "^4.19.2",
+    "express-validator": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.3",
+    "nodemon": "^3.1.0",
+    "npm": "^10.5.1",
+    "run-all": "^1.0.1",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.3"
+  }
+}
