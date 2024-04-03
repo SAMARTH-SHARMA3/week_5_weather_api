@@ -23,7 +23,6 @@
     "skipLibCheck": true, // Skips type checking of declaration files (*.d.ts).
     "typeRoots": ["./node_modules/@types", "./src/types"] // Specifies folders that contain type definitions. This is useful for custom type definitions.
   },
-  
+
   "include": ["src/**/*"] // Specifies a list of glob patterns that match files to be included in the compilation. Here, it includes all files in the "src" directory.
 }
-
