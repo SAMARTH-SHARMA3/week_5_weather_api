@@ -23,6 +23,7 @@
     "@typescript-eslint/eslint-plugin": "^7.5.0",
     "@typescript-eslint/parser": "^7.5.0",
     "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
     "install": "^0.13.0",
     "nodemon": "^3.0.3",
     "npm": "^10.5.1",
