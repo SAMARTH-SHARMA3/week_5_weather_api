@@ -2,7 +2,7 @@ import algosdk from "algosdk";
 const algodToken = "a".repeat(64);
 const server = "http://localhost";
 const port = "4001";
-const mnemonic = "return valley loop joke jar door bitter acoustic innocent labor gain mansion explain skirt casual pattern check risk action liar mountain essay liberty abstract once";
+const mnemonic = "foot spot alpha because hockey decline network wash blossom elephant health method crunch belt west wonder drill envelope swear order spend boy march abstract search";
 export function getClient() {
     let client = new algosdk.Algodv2(algodToken, server, port);
     return client;
