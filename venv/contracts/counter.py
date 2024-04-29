@@ -58,7 +58,7 @@ def clear_state_program():
 
 
 if __name__ == "__main__":
-    __path__ = "./contracts/artifacts"
+    path = "./contracts/artifacts"
     with open(os.path.join(path, "counter_approval.teal"), 'w') as f:
         f.write(approval_program())
 
