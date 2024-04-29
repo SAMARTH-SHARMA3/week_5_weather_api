@@ -38,7 +38,7 @@ async function compileProgram(client, TealSource){
         let params = await algodClient.getTransactionParams().do();
         const onComplete = algosdk.OnApplicationComplete.NoOpOC;
 
-        console.log("Deploying aPPlication.  .  .  .  .  .  .  .  ")
+        console.log("Deploying APPlication.  .  .  .  .  .  .  .  ")
 
         let txn = algosdk.makeApplicationCreateTxn(sender, params,onComplete,approvalProgramBinary, clearProgramBinary,localInts, localBytes, globalInts, globalBytes,);
 
