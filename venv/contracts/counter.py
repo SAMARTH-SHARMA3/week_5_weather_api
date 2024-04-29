@@ -13,9 +13,10 @@ def approval_program():
         Return(Int(1))
     )
 
-    hanldle_optin = Return(Int(0))
+    handle_optin = Return(Int(0))
     handle_closeout = Return(Int(0))
     handle_updateapp = Return(Int(0))
+    handle_deleteapp = Return(Int(0))
 
 
     scratchCount = ScratchVar(TealType.uint64)
