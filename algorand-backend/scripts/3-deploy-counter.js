@@ -40,7 +40,7 @@ async function compileProgram(client, TealSource){
 
         console.log("Deploying APPlication.  .  .  .  .  .  .  .  ")
 
-        let txn = algosdk.makeApplicationCreateTxn(sender, params,onComplete,approvalProgramBinary, clearProgramBinary,localInts, localBytes, globalInts, globalBytes,);
+        let txn = algosdk.makeApplicationCreateTxn(sender, params, onComplete, approvalProgramBinary, clearProgramBinary, localInts, localBytes, globalInts, globalBytes,);
 
         let txId = txn.txID().toString();
         
@@ -52,7 +52,8 @@ async function compileProgram(client, TealSource){
 
         await algosdk.waitForConfirmation(algodClient, txId, 2);
 
-        let transactionResponse = await algodClient.pendingTransactionResponse['application-index'];
+        let transactionResponse = await algodClient.pendingTransactionInformation(txId).do();
+        let appId = transactionResponse['application-index'];
 
         console.log("Created new with app-id: ", appId);
 
