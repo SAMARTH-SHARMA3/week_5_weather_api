@@ -3,7 +3,7 @@ import algosdk from "algosdk";
 
 dotenv.config();
 
-let myaccount = algosdk.mnemonicToSecretKey("foot spot alpha because hockey decline network wash blossom elephant health method crunch belt west wonder drill envelope swear order spend boy march abstract search");
+let myaccount = algosdk.mnemonicToSecretKey("excite empty daring robust leg affair fly old anger swap debate slide walk goddess curious amount piano faint awake utility key bounce reopen able put");
 
 const baseServer = "https://testnet-api.algonode.cloud";
 const algodClient = new algosdk.Algodv2("", baseServer, "");
