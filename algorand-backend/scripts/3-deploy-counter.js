@@ -8,7 +8,7 @@ const baseServer = "https://testnet-api.algonode.cloud";
 const algodClient = new algosdk.Algodv2("", baseServer, "");
 
 let myaccount = algosdk.mnemonicToSecretKey(
-  "marble bargain devote struggle black rain ticket meadow couple until soup catalog jar afraid helmet scare legal cinnamon profit craft proof tuna elegant absorb insect"
+  "visa orient jealous oven razor torch will beef attitude hunt novel amazing pepper negative help able arena fuel jealous draw this robot month about dilemma"
 );
 let sender = myaccount.addr;
 
@@ -30,10 +30,10 @@ async function compileProgram(client, TealSource) {
     const globalBytes = 0;
 
     let approvalProgramfile = await open(
-      "./contracts/artifacts/counter_approval.teal"
+      "/workspaces/codespaces-blank/venv/contracts/artifacts/counter_approval.teal"
     );
     let clearProgramfile = await open(
-      "./contracts/artifacts/counter_clear.teal"
+      "/workspaces/codespaces-blank/venv/contracts/artifacts/counter_clear.teal"
     );
 
     const approvalProgram = await approvalProgramfile.readFile();

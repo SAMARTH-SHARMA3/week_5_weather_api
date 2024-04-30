@@ -3,7 +3,7 @@ import algosdk from "algosdk";
 
 dotenv.config();
 
-let myaccount = algosdk.mnemonicToSecretKey("excite empty daring robust leg affair fly old anger swap debate slide walk goddess curious amount piano faint awake utility key bounce reopen able put");
+let myaccount = algosdk.mnemonicToSecretKey("visa orient jealous oven razor torch will beef attitude hunt novel amazing pepper negative help able arena fuel jealous draw this robot month about dilemma");
 
 const baseServer = "https://testnet-api.algonode.cloud";
 const algodClient = new algosdk.Algodv2("", baseServer, "");
@@ -13,7 +13,7 @@ const algodClient = new algosdk.Algodv2("", baseServer, "");
     let params = await algodClient.getTransactionParams().do();
     // reciever will be some random address.
     const receiver =
-    "HZ57J3K46JIJXILONBBZOHX6BKPXEM2VVXNRFSUED6DKFD5ZD24PMJ3MVA";
+    "YVLHRJORM7BW4BDXLF5T7PO5VN7RLJNPWUWZFR7MKHJVLZACSZSOD32ZVU";
     const enc = new TextEncoder();
     const note = enc.encode("My first transaction on Algo!");
     let amount = 100000; // equals .1 ALGO
